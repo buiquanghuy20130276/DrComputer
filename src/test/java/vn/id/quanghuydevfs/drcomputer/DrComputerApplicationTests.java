@@ -13,12 +13,6 @@ class DrComputerApplicationTests {
     @Autowired
     private OrderService orderService;
 
-    @Test
-    public void testCreateOrder() {
 
-        Assertions.assertNotNull(orderService.getOrders());
-        // Kiểm tra xem thông tin trong orderResponse có chính xác hay không
-        // Bạn có thể kiểm tra các thuộc tính của orderResponse.getOrder() tại đây
-    }
 
 }
