@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/management/comment")
 @PreAuthorize("hasAnyRole('ADMIN','MANAGER')")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin("*")
 
 public class CommentManagementController {
     @Autowired

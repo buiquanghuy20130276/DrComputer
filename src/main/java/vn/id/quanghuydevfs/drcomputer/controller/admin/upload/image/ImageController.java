@@ -14,7 +14,7 @@ import java.util.Map;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("api/v1/image")
-@CrossOrigin
+@CrossOrigin("*")
 public class ImageController {
     private final Cloudinary cloudinary;
 

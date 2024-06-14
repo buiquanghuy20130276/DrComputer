@@ -16,7 +16,7 @@ import java.util.Optional;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/management/users")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin("*")
 //@PreAuthorize("hasRole('ADMIN')")
 public class UserAdminController {
     private final UserService userService;
